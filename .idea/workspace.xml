@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e423e6c9-4be6-47d9-a01b-0f3c7cda4a1e" name="Default Changelist" comment="" />
+    <list default="true" id="e423e6c9-4be6-47d9-a01b-0f3c7cda4a1e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageCreation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UniBanMirror-1.0-SNAPSHOT-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/UniBanMirror-1.0-SNAPSHOT-javadoc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UniBanMirror-1.0-SNAPSHOT-shaded.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/UniBanMirror-1.0-SNAPSHOT-shaded.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/Config.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/Config.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/Encryption.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/Encryption.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/HttpRequest.BufferedResponse.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/HttpRequest.BufferedResponse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/HttpRequest.Form.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/HttpRequest.Form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/HttpRequest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/HttpRequest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/PageCreation.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/PageCreation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/class-use/Config.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/class-use/Config.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/class-use/Encryption.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/class-use/Encryption.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/class-use/HttpRequest.BufferedResponse.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/class-use/HttpRequest.BufferedResponse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/class-use/HttpRequest.Form.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/class-use/HttpRequest.Form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/class-use/HttpRequest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/class-use/HttpRequest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/class-use/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/class-use/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/class-use/PageCreation.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/class-use/PageCreation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageCreation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageCreation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mirror.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/mirror.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-UniBanMirror-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-UniBanMirror-1.0-SNAPSHOT.jar" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +68,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1aD9k9gnhQzeRfpGWntRvTeRjVb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -77,40 +113,66 @@
       <updated>1586259437476</updated>
       <workItem from="1586259441660" duration="9441000" />
       <workItem from="1586270271927" duration="218000" />
+      <workItem from="1586271347346" duration="1217000" />
+      <workItem from="1586272759964" duration="226000" />
     </task>
+    <task id="LOCAL-00001" summary="bump">
+      <created>1586271394109</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586271394110</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Loadup">
+      <created>1586272267264</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586272267264</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="bump" />
+    <MESSAGE value="Loadup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Loadup" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1014" y="369" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1586260954386">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="1014" y="369" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1586260954386" />
-    <state width="1298" height="498" key="GridCell.Tab.0.bottom" timestamp="1586270488884">
+    <state x="628" y="149" key="CommitChangelistDialog2" timestamp="1586272266198">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1298" height="498" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1586270488884" />
-    <state width="1298" height="498" key="GridCell.Tab.0.center" timestamp="1586270488883">
+    <state x="628" y="149" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1586272266198" />
+    <state width="1297" height="245" key="GridCell.Tab.0.bottom" timestamp="1586272565092">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1298" height="498" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1586270488883" />
-    <state width="1298" height="498" key="GridCell.Tab.0.left" timestamp="1586270488883">
+    <state width="1297" height="245" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1586272565092" />
+    <state width="1297" height="245" key="GridCell.Tab.0.center" timestamp="1586272565092">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1298" height="498" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1586270488883" />
-    <state width="1298" height="498" key="GridCell.Tab.0.right" timestamp="1586270488883">
+    <state width="1297" height="245" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1586272565092" />
+    <state width="1297" height="245" key="GridCell.Tab.0.left" timestamp="1586272565092">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1298" height="498" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1586270488883" />
+    <state width="1297" height="245" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1586272565092" />
+    <state width="1297" height="245" key="GridCell.Tab.0.right" timestamp="1586272565092">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1297" height="245" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1586272565092" />
     <state x="555" y="211" key="Maven.ArtifactSearchDialog" timestamp="1586263624883">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="555" y="211" key="Maven.ArtifactSearchDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1586263624883" />
-    <state x="503" y="338" width="642" height="534" key="find.popup" timestamp="1586268950799">
+    <state x="503" y="338" width="642" height="534" key="find.popup" timestamp="1586271667088">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="503" y="338" width="642" height="534" key="find.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1586268950799" />
+    <state x="503" y="338" width="642" height="534" key="find.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1586271667088" />
   </component>
 </project>
