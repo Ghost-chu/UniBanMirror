@@ -44,18 +44,9 @@ public class PageCreation {
                 builder.append("</td>");
                 builder.append("</tr>");
             });
+            builder.append("</table>");
         }
-        builder.append("<hr />")
-                .append("<p>想要将自己的UniBan封禁列表添加到此镜像站? 请将您的列表提交到<a href=\"https://uniban.eumc.cc\">UniBan 公开订阅列表库</a>后耐心等待。</p>")
-                .append("<p>如果长时间未同步您的封禁列表，请联系Ghost_chu(admin@mcsunnyside.com)[2908803755]，提醒我进行同步。</p>");
-        builder.append("<hr />")
-                .append("<p>常见错误：</p>")
-                .append("<ul>")
-                .append("<li>Unexpected end of file from server - 对方UniBan请求数量已达上限，稍后镜像会再次尝试同步</li>")
-                .append("<li>Connection refused (Connection refused) - 对方UniBan未在运行或无法访问</li>")
-                .append("</ul>");
-        builder.append("</body>")
-                .append("</html>");
+        buildFooter();
         File pageFile = new File(Main.rootPath,"index.html");
         try {
             pageFile.delete();
@@ -88,5 +79,18 @@ public class PageCreation {
                 .append("<p>最后更新时间：").append(new Date().toString()).append("</p>")
                 .append("<p>本站点仅用于数据分发，对数据来源概不负责，请谨慎订阅！</p>").append("<hr />");
 
+    }
+    private void buildFooter(){
+        builder.append("<hr />")
+                .append("<p>想要将自己的UniBan封禁列表添加到此镜像站? 请将您的列表提交到<a href=\"https://uniban.eumc.cc\">UniBan 公开订阅列表库</a>后耐心等待。</p>")
+                .append("<p>如果长时间未同步您的封禁列表，请联系Ghost_chu(admin@mcsunnyside.com)[2908803755]，提醒我进行同步。</p>");
+        builder.append("<hr />")
+                .append("<p>常见错误：</p>")
+                .append("<ul>")
+                .append("<li>Unexpected end of file from server - 对方UniBan请求数量已达上限，稍后镜像会再次尝试同步</li>")
+                .append("<li>Connection refused (Connection refused) - 对方UniBan未在运行或无法访问</li>")
+                .append("</ul>");
+        builder.append("</body>")
+                .append("</html>");
     }
 }
