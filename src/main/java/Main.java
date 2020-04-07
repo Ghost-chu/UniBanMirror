@@ -17,11 +17,17 @@ import java.util.Map;
 
 public class Main {
     static Config config;
-    static File file = new File("config.json");
+    static File file;
     static Gson gson = new Gson();
-
+    public static File rootPath;
     @SneakyThrows
     public static void main(String[] args) {
+        if(System.getProperty("filepath") != null){
+            rootPath = new File(System.getProperty("filepath"));
+        }else{
+            rootPath = new File(".");
+        }
+        file = new File(rootPath,"config.json");
         System.out.println("UniBan Mirror Service by Ghost_chu. [1.0.0]");
         System.out.println("Current time: "+new Date().toString());
         System.out.println("Reading configuration...");
@@ -71,7 +77,8 @@ public class Main {
     }
 
     public static void save(@NotNull Server server, @NotNull String data) throws IOException {
-        File file = new File("./data/" + server.getName().toLowerCase());
+        File file = new File(rootPath,"data");
+        file = new File(file, server.getName().toLowerCase());
         file.mkdirs();
         file = new File(file, "get");
         file.delete();

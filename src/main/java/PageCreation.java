@@ -46,7 +46,7 @@ public class PageCreation {
             });
         }
         buildFooter();
-        File pageFile = new File("index.html");
+        File pageFile = new File(Main.rootPath,"index.html");
         try {
             pageFile.delete();
             pageFile.createNewFile();
@@ -58,7 +58,7 @@ public class PageCreation {
     }
 
     private String getSubUrl(@NotNull Server server){
-        return Encryption.encrypt("unibanmirror.mcsunnyside.com/"+server.getName().toLowerCase() + ":443@", Encryption.SHARING_KEY);
+        return Encryption.encrypt("unibanmirror.mcsunnyside.com/data/"+server.getName().toLowerCase() + ":443@", Encryption.SHARING_KEY);
     }
 
     private void buildHead(){
