@@ -1,0 +1,58 @@
+{
+	"servers": [{
+			"display": "阳光之城-SunnySide",
+			"name": "sunnyside",
+			"url": "https://api.mcsunnyside.com/game/mojang/minecraft/banlist/sunnyside/get",
+			"password": null
+		},
+		{
+			"display": "GBCraft",
+			"name": "gbcraft",
+			"url": "http://wan.gbcraft.org:25595/get",
+			"password": "gbcraft"
+		},
+		{
+			"display": "桉树叶",
+			"name": "eumc",
+			"url": "http://server.eumc.cc:60009/get",
+			"password": "UniBan"
+		},
+		{
+			"display": "喵喵公馆",
+			"name": "miaocraft",
+			"url": "http://play.miaoscraft.cn:60009/get",
+			"password": null
+		},
+		{
+			"display": "清风和煦",
+			"name": "gbcraft",
+			"url": "http://wan.gbcraft.org:25595/get",
+			"password": "gbcraft"
+		}, {
+			"display": "时忆",
+			"name": "mcshiyi",
+			"url": "http://server.mcshiyi.com:60009/get",
+			"password": "UniBan"
+		}, {
+			"display": "BilibiliMC",
+			"name": "bilibilimc",
+			"url": "http://bilibilimc.com:60009/get",
+			"password": "UniBan"
+		}, {
+			"display": "SoTap 社区服",
+			"name": "sotap",
+			"url": "http://play.sotap.org:60009/get",
+			"password": "UniBan"
+		}, {
+			"display": "StarLight繁星工坊",
+			"name": "starlight",
+			"url": "http://e.minecraft.kim:60009/get",
+			"password": null
+		}, {
+			"display": "BlueDream",
+			"name": "bluedream",
+			"url": "http://p.bdcraft.cn:60009/get",
+			"password": "Z4Et$4"
+		}
+	]
+}

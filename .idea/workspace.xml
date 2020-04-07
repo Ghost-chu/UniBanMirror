@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e423e6c9-4be6-47d9-a01b-0f3c7cda4a1e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aD9k9gnhQzeRfpGWntRvTeRjVb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="UniBanMirror" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e423e6c9-4be6-47d9-a01b-0f3c7cda4a1e" name="Default Changelist" comment="" />
+      <created>1586259437476</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586259437476</updated>
+      <workItem from="1586259441660" duration="9441000" />
+      <workItem from="1586270271927" duration="218000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1014" y="369" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1586260954386">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="1014" y="369" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1586260954386" />
+    <state width="1298" height="498" key="GridCell.Tab.0.bottom" timestamp="1586270488884">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1298" height="498" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1586270488884" />
+    <state width="1298" height="498" key="GridCell.Tab.0.center" timestamp="1586270488883">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1298" height="498" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1586270488883" />
+    <state width="1298" height="498" key="GridCell.Tab.0.left" timestamp="1586270488883">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1298" height="498" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1586270488883" />
+    <state width="1298" height="498" key="GridCell.Tab.0.right" timestamp="1586270488883">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1298" height="498" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1586270488883" />
+    <state x="555" y="211" key="Maven.ArtifactSearchDialog" timestamp="1586263624883">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="555" y="211" key="Maven.ArtifactSearchDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1586263624883" />
+    <state x="503" y="338" width="642" height="534" key="find.popup" timestamp="1586268950799">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="503" y="338" width="642" height="534" key="find.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1586268950799" />
+  </component>
+</project>
