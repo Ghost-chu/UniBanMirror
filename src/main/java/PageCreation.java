@@ -29,8 +29,8 @@ public class PageCreation {
             builder.append("</tr>");
         });
         builder.append("</table>");
-        builder.append("<hr />");
         if(!failed.isEmpty()){
+            builder.append("<hr />");
             builder.append("<p><i>").append("以下是同步失败的服务器列表及失败原因：</i></p>");
             builder.append("<table border=\"2\">");
             builder.append("<td>服务器名称</td><td>错误信息</td>");

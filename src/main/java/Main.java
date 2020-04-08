@@ -73,6 +73,9 @@ public class Main {
         Key key = Encryption.getKeyFromString(server.getPassword());
         String content;
         content = Encryption.decrypt(data, key);
+        if(content == null){
+            content = "Internal server error";
+        }
         save(server, content);
     }
 
