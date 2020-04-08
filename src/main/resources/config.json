@@ -1,7 +1,10 @@
-[
-  {
-    "name": "",
-    "url": "",
-    "password": ""
-  }
-]
+{
+  "servers": [
+    {
+      "display": "阳光之城-SunnySide",
+      "name": "sunnyside",
+      "url": "https://api.mcsunnyside.com/game/mojang/minecraft/banlist/sunnyside/get",
+      "password": null
+    }
+  ]
+}
