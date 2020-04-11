@@ -1,4 +1,5 @@
 import org.jetbrains.annotations.NotNull;
+import rank.MojangAPI;
 
 import java.io.File;
 import java.io.IOException;
@@ -33,7 +34,7 @@ public class PageCreation {
             builder.append("<hr />");
             builder.append("<p><i>").append("以下是同步失败的服务器列表及失败原因：</i></p>");
             builder.append("<table border=\"2\">");
-            builder.append("<td>服务器名称</td><td>错误信息</td>");
+            builder.append("<tr><th>服务器名称</th><th>错误信息</th></tr>");
             failed.forEach((k,v)->{
                 builder.append("<tr>");
                 builder.append("<td>");
@@ -45,6 +46,43 @@ public class PageCreation {
                 builder.append("</tr>");
             });
             builder.append("</table>");
+            builder.append("<hr />");
+            builder.append("<h2>").append("联合封禁TOP10排行榜").append("</h2>");
+            builder.append("<table border=\"3\">");
+            builder.append("<tr><th>玩家ID</th><th>玩家UUID</th><th>封禁次数</th></tr>");
+            int i=0;
+            for (String key:Main.banRanks.getRanks().keySet()){
+                builder.append("<tr>");
+                builder.append("<td>");
+                builder.append(MojangAPI.getName(key));
+                builder.append("</td>");
+                builder.append("<td>");
+                builder.append(key);
+                builder.append("</td>");
+                builder.append("<td>");
+                builder.append(Main.banRanks.getRanks().get(key));
+                builder.append("</td>");
+                builder.append("</tr>");
+                i++;
+                if(i >= 10){
+                    break;
+                }
+            }
+            builder.append("</table>");
+//            Main.banRanks.getRanks().forEach((k,v)->{
+//                builder.append("<tr>");
+//                builder.append("<td>");
+//                builder.append(usernameMapping.getOrDefault(k,"Null"));
+//                builder.append("</td>");
+//                builder.append("<td>");
+//                builder.append(k);
+//                builder.append("</td>");
+//                builder.append("<td>");
+//                builder.append(v);
+//                builder.append("</td>");
+//                builder.append("</tr>");
+//            });
+//
         }
         buildFooter();
         File pageFile = new File(Main.rootPath,"index.html");

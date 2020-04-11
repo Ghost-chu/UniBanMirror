@@ -1,6 +1,7 @@
 import com.google.gson.Gson;
 import lombok.SneakyThrows;
 import org.jetbrains.annotations.NotNull;
+import rank.BanRanks;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -11,6 +12,7 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.security.Key;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -20,6 +22,7 @@ public class Main {
     static File file;
     static Gson gson = new Gson();
     public static File rootPath;
+    public static BanRanks banRanks = new BanRanks();
     @SneakyThrows
     public static void main(String[] args) {
         if(System.getProperty("filepath") != null){
@@ -87,6 +90,10 @@ public class Main {
         file.delete();
         file.createNewFile();
         Files.write(Paths.get(file.getPath()), data.getBytes(StandardCharsets.UTF_8));
+        try {
+            String[] bans = gson.fromJson(data,String[].class);
+            Arrays.stream(bans).forEach(ban->banRanks.ping(ban));
+        }catch (Exception ignored){}
     }
 
 }
