@@ -15,7 +15,7 @@ public class PageCreation {
     public PageCreation(@NotNull List<Server> total, @NotNull Map<Server,String> failed){
         this.buildHead();
         builder.append("<table border=\"3\">");
-        builder.append("<td>服务器名称</td><td>服务器镜像订阅命令</td><td>同步状态</td>");
+        builder.append("<tr><th>服务器名称</th><th>服务器镜像订阅命令</th><th>同步状态</th></tr>");
         total.forEach(server->{
             builder.append("<tr>");
             builder.append("<td>");
@@ -46,29 +46,6 @@ public class PageCreation {
                 builder.append("</tr>");
             });
             builder.append("</table>");
-            builder.append("<hr />");
-            builder.append("<h2>").append("联合封禁TOP10排行榜").append("</h2>");
-            builder.append("<table border=\"3\">");
-            builder.append("<tr><th>玩家ID</th><th>玩家UUID</th><th>封禁次数</th></tr>");
-            int i=0;
-            for (String key:Main.banRanks.getRanks().keySet()){
-                builder.append("<tr>");
-                builder.append("<td>");
-                builder.append(MojangAPI.getName(key));
-                builder.append("</td>");
-                builder.append("<td>");
-                builder.append(key);
-                builder.append("</td>");
-                builder.append("<td>");
-                builder.append(Main.banRanks.getRanks().get(key));
-                builder.append("</td>");
-                builder.append("</tr>");
-                i++;
-                if(i >= 10){
-                    break;
-                }
-            }
-            builder.append("</table>");
 //            Main.banRanks.getRanks().forEach((k,v)->{
 //                builder.append("<tr>");
 //                builder.append("<td>");
@@ -84,6 +61,29 @@ public class PageCreation {
 //            });
 //
         }
+        builder.append("<hr />");
+        builder.append("<h2>").append("联合封禁TOP10排行榜").append("</h2>");
+        builder.append("<table border=\"3\">");
+        builder.append("<tr><th>玩家ID</th><th>玩家UUID</th><th>封禁次数</th></tr>");
+        int i=0;
+        for (String key:Main.banRanks.getRanks().keySet()){
+            builder.append("<tr>");
+            builder.append("<td>");
+            builder.append(MojangAPI.getName(key));
+            builder.append("</td>");
+            builder.append("<td>");
+            builder.append(key);
+            builder.append("</td>");
+            builder.append("<td>");
+            builder.append(Main.banRanks.getRanks().get(key));
+            builder.append("</td>");
+            builder.append("</tr>");
+            i++;
+            if(i >= 10){
+                break;
+            }
+        }
+        builder.append("</table>");
         buildFooter();
         File pageFile = new File(Main.rootPath,"index.html");
         try {

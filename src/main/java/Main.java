@@ -31,7 +31,7 @@ public class Main {
             rootPath = new File(".");
         }
         file = new File(rootPath,"config.json");
-        System.out.println("UniBan Mirror Service by Ghost_chu. [1.0.0]");
+        System.out.println("UniBan Mirror Service by Ghost_chu. [1.0.1]");
         System.out.println("Current time: "+new Date().toString());
         System.out.println("Reading configuration...");
         config = gson.fromJson(new InputStreamReader(new FileInputStream(file), StandardCharsets.UTF_8), Config.class);
