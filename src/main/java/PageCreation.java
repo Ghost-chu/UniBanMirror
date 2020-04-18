@@ -62,7 +62,7 @@ public class PageCreation {
 //
         }
         builder.append("<hr />");
-        builder.append("<h2>").append("联合封禁TOP20排行榜").append("</h2>");
+        builder.append("<h2>").append("联合封禁TOP50排行榜").append("</h2>");
         builder.append("<table border=\"3\">");
         builder.append("<tr><th>玩家ID</th><th>玩家UUID</th><th>封禁次数</th></tr>");
         int i=0;
@@ -79,7 +79,7 @@ public class PageCreation {
             builder.append("</td>");
             builder.append("</tr>");
             i++;
-            if(i >= 20){
+            if(i >= 50){
                 break;
             }
         }

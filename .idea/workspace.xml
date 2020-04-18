@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e423e6c9-4be6-47d9-a01b-0f3c7cda4a1e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PageCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageCreation.java" afterDir="false" />
     </list>
@@ -88,7 +87,7 @@
       <workItem from="1586562464248" duration="7789000" />
       <workItem from="1586863694679" duration="671000" />
       <workItem from="1587018107856" duration="939000" />
-      <workItem from="1587195955598" duration="30000" />
+      <workItem from="1587195955598" duration="1158000" />
     </task>
     <task id="LOCAL-00001" summary="bump">
       <created>1586271394109</created>
@@ -160,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586571880956</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="20">
+      <created>1587195999317</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1587195999317</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,33 +182,34 @@
     <MESSAGE value="update" />
     <MESSAGE value="ignore" />
     <MESSAGE value="Delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete" />
+    <MESSAGE value="20" />
+    <option name="LAST_COMMIT_MESSAGE" value="20" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1014" y="369" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1586260954386">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="1014" y="369" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1586260954386" />
-    <state x="628" y="149" key="CommitChangelistDialog2" timestamp="1586571880313">
+    <state x="628" y="149" key="CommitChangelistDialog2" timestamp="1587195997331">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="628" y="149" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1586571880313" />
-    <state width="1292" height="144" key="GridCell.Tab.0.bottom" timestamp="1586572886088">
+    <state x="628" y="149" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1587195997331" />
+    <state width="1291" height="144" key="GridCell.Tab.0.bottom" timestamp="1587196490288">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1292" height="144" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1586572886088" />
-    <state width="1292" height="144" key="GridCell.Tab.0.center" timestamp="1586572886087">
+    <state width="1291" height="144" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1587196490288" />
+    <state width="1291" height="144" key="GridCell.Tab.0.center" timestamp="1587196490288">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1292" height="144" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1586572886087" />
-    <state width="1292" height="144" key="GridCell.Tab.0.left" timestamp="1586572886087">
+    <state width="1291" height="144" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1587196490288" />
+    <state width="1291" height="144" key="GridCell.Tab.0.left" timestamp="1587196490288">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1292" height="144" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1586572886087" />
-    <state width="1292" height="144" key="GridCell.Tab.0.right" timestamp="1586572886088">
+    <state width="1291" height="144" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1587196490288" />
+    <state width="1291" height="144" key="GridCell.Tab.0.right" timestamp="1587196490288">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1292" height="144" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1586572886088" />
+    <state width="1291" height="144" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1587196490288" />
     <state x="555" y="211" key="Maven.ArtifactSearchDialog" timestamp="1586263624883">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -211,10 +218,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="526" y="198" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1586562493860" />
-    <state x="393" y="394" key="Vcs.Push.Dialog.v2" timestamp="1586571882465">
+    <state x="393" y="394" key="Vcs.Push.Dialog.v2" timestamp="1587196001432">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="393" y="394" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1586571882465" />
+    <state x="393" y="394" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1587196001432" />
     <state x="503" y="338" width="642" height="534" key="find.popup" timestamp="1586271667088">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
