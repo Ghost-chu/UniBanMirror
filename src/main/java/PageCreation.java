@@ -82,6 +82,11 @@ public class PageCreation {
             if(i >= 50){
                 break;
             }
+            try {
+                Thread.sleep(1000); //SBMOJANG API LIMIT
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
         builder.append("</table>");
         buildFooter();
